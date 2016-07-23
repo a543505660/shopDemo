@@ -1,0 +1,203 @@
+
+/*居中设置*/
+.mid{
+	width:1000px ;
+	margin: 0 auto;
+}
+
+header{
+	height: 151px;
+	background:url(../imgs/header/bg.gif) repeat-x;
+}
+
+
+/*头部*/
+header #top{
+	height: 31px;
+}
+header #top a,
+header #top #t_P2{
+	float: right;
+	font:normal 12px/31px "宋体";
+}
+header #top #t_P1{
+	font:bold 12px/30px "宋体";
+	
+}
+
+
+/*输入框*/
+
+header #formBox{
+	height: 85px;
+}
+header #formBox img{}
+header  form{
+	margin-top: 22px;
+	margin-left: 146px;
+}
+header form input,
+header  #shopLeft a,
+header #shopBox #shopRight
+{
+	font:normal 14px/35px "微软雅黑";
+}
+
+header form #f_text{
+	width: 360px;
+	height: 35px;
+}
+header form #f_sub{
+	width: 69px;
+	height:35px ;
+	color:#fff8f4;
+	background-color: #ff8c00;
+}
+
+
+/*购物车*/
+header #shopBox{
+	margin-top: 22px;
+	margin-left: 31px;
+	background-color: #ff8800;
+}
+header #shopBox #shopLeft{
+	width: 87px;
+	text-indent: 40px;
+	border-right:1px solid #e27a00; 
+	background: url(../imgs/header/03.jpg) no-repeat 10px center;
+}
+header #shopBox #shopRight{
+	text-indent: 19px;
+	width: 56px;
+	border-left:1px solid #ff9c01;
+	background: url(../imgs/header/04.gif) no-repeat 33px center; 
+}
+header  #shopLeft a,
+header #shopBox #shopRight{
+	color:#fff8f4;
+}
+header #shopBox #shopLeft,
+header #shopBox #shopRight{
+	
+	height: 35px;
+}
+
+
+header nav{}
+header  #navTop{
+	width: 189px;
+}
+header  #navTop p{
+	height: 35px;
+	font:bold 16px/35px "微软雅黑";
+	text-indent: 40px;
+	background: url(../imgs/header/06.gif) no-repeat 148px 14px;
+}
+
+header  #dlBox dl{
+	height: 50px;
+	background: url(../imgs/header/05.jpg) no-repeat 172px 19px;
+	background-color: #4593fd;
+	padding-left: 10px;
+	padding-top: 13px;
+	border-bottom: 1px solid #3487f2;
+}
+header  #dlBox dd a{
+	color:#c2d9f8;
+}
+header  #dlBox dd a,
+header  #dlBox dt a{
+	font:normal 12px/20px "宋体";
+}
+
+
+header #rightNav{
+	width: 550px;
+	position: relative;
+	left: 179px;
+	top: -119px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+
+	border: 1px solid #ddd;
+}
+header  #rightNav dl{
+	width: 530px;
+	height: 25px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	background-color: #ffffff;
+	background: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+#rightNav dt{
+	color:#2785e6;
+	margin-right: 15px;
+}
+header #rightNav dd a{
+	color:#666;
+}
+header #rightNav dd{
+	width: 425px;
+}
+header  #rightNav dd a,
+header  #rightNav dt,
+header  #rightNav div
+{
+	font:normal 12px/25px "宋体";
+}
+
+header  #rightNav div{
+	height: 26px;
+	width: 105px;
+	background: url(../imgs/header/05.jpg) no-repeat 87px center;
+	background-color:#2785e6 ;
+	float: left;
+	margin-top: 15px;
+	margin-right: 10px;
+	text-indent: 8px;
+}
+#rightNav div a{
+	color: #fff;
+}
+header  nav li{
+	width: 100px;
+	text-align: center;
+}
+header  nav li:hover{
+	background-color: #4593fd;
+}
+header  nav li a{
+	line-height: 35px;
+}
+
+
+
+
+
+
+header  #navTop p,
+header  #dlBox dt a,
+header  nav li a
+{
+	color: #fff;
+}
+
+
+header  nav li,
+header  nav ul,
+header  #navTop,
+header #shopBox #shopLeft,
+header #shopBox #shopRight,
+header form #f_text,
+header form #f_sub,
+header #formBox img,
+header  form,
+header #shopBox,
+header #top #t_P1,
+header #rightNav dt,
+header #rightNav dd
+{
+	float: left;
+}
